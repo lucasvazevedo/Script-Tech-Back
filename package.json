@@ -1,0 +1,26 @@
+{
+  "name": "script-tech-back",
+  "version": "1.0.0",
+  "description": "Backend service",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasvazevedo/Script-Tech-Back.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasvazevedo/Script-Tech-Back/issues"
+  },
+  "homepage": "https://github.com/lucasvazevedo/Script-Tech-Back#readme",
+  "dependencies": {
+    "@mikro-orm/core": "^6.1.12",
+    "@mikro-orm/postgresql": "^6.1.12"
+  }
+}
